@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class FastPage extends StatefulWidget {
-  FastPage({
+class FirstPage extends StatefulWidget {
+  FirstPage({
     Key? key,
     required this.email,
     required this.password,
@@ -13,10 +13,10 @@ class FastPage extends StatefulWidget {
   String password;
 
   @override
-  _FastPageState createState() => _FastPageState();
+  _FirstPageState createState() => _FirstPageState();
 }
 
-class _FastPageState extends State<FastPage> {
+class _FirstPageState extends State<FirstPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
